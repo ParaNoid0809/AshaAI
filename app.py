@@ -24,7 +24,7 @@ os.environ["TOGETHER_API_KEY"] = TOGETHER_API_KEY  # ✅ New
 embeddings = download_hugging_face_embeddings()
 
 # ✅ Setup Pinecone retriever
-index_name = "medicalbot"
+index_name = "ashaai"
 docsearch = PineconeVectorStore.from_existing_index(
     index_name=index_name,
     embedding=embeddings
