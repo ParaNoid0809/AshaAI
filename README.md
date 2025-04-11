@@ -53,5 +53,5 @@ open up localhost:
 - Python
 - LangChain
 - Flask
-- GPT
+- TEACHERAI
 - Pinecone
