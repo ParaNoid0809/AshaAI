@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 from src.prompt import *  # where system_prompt is defined
 import os
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static', static_folder='static')
 load_dotenv()
 
 # ✅ Load API keys
